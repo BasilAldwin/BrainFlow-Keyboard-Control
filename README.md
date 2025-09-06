@@ -28,25 +28,29 @@ Use simple sliders to control the signal smoothing (EMA) and activation threshol
 # How It Works
 This project uses a simple and robust architecture:
 
-## Python Backend
+Python Backend
 A lightweight Flask server handles the direct connection to your EEG device using the BrainFlow library. It performs all the signal processing, calculates the metrics, and hosts a WebSocket for real-time communication.
 
-## HTML/JavaScript Frontend
+HTML/JavaScript Frontend
 A single, self-contained HTML file provides the user interface. It connects to the Python server's WebSocket to send commands (like "start calibration") and receive a live stream of data to display on the graphs.
 
-## Getting Started
+# Getting Started
 Prerequisites
 [Python 3.11.5](https://www.python.org/downloads/release/python-3115/) installed and accessible from your command line.
 
 A BrainFlow-compatible EEG device.
 
+
+
+
+
 ## Installation & Usage
 Download the Project: Download all the files from this repository (muse_server_backend.py, install.bat, run.bat, requirements.txt) and place them in a new folder on your computer.
 
-### Install Dependencies
+Install Dependencies
 Double-click the install.bat script. This will open a terminal, download, and install all the necessary Python libraries from the requirements.txt file. You only need to do this once.
 
-### Run the Application
+Run the Application
 Double-click the run.bat script. This will start the Python server, and your default web browser should automatically open to the control interface.
 
 Connect and Calibrate:
@@ -57,7 +61,7 @@ Click Connect.
 
 Once connected, click Calibrate and relax for 10 seconds while the application measures your baseline brain activity.
 
-## Configure and Control
+# Configure and Control
 
 Choose your desired Metric Mode.
 
@@ -66,6 +70,7 @@ Adjust the Smoothing and Sensitivity sliders.
 Set your desired Key Bindings.
 
 You're ready to go! The application will now press your configured keys when your brain activity meets the trigger conditions.
+
 
 ## Acknowledgements
 This project was heavily inspired by the architecture and methodologies of the BrainFlowsIntoVRChat project by ChilloutCharles. Many thanks to them for pioneering a robust and flexible approach to BCI with BrainFlow.
