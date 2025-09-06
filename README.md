@@ -1,10 +1,8 @@
-# BrainFlow-Keyboard-Control
-You can now eat food and scroll facebook no hands!
 BrainFlow Keyboard Control
+You can now eat food and scroll Facebook with no hands!
+
 A versatile, web-based Brain-Computer Interface (BCI) application that translates brainwave signals into fully configurable keyboard commands. This project uses the powerful BrainFlow library to ensure compatibility with a wide range of EEG hardware and provides a user-friendly interface for real-time control and visualization.
 
-Wrote this with Gemini 2.5 PRO (Ican'tCode.JPG)
- 
 Core Features
 Web-Based GUI: Control everything from a clean, modern interface in your web browser. No complex command-line arguments needed.
 
@@ -27,8 +25,8 @@ Tunable Smoothing & Sensitivity: Use simple sliders to control the signal smooth
 How It Works
 This project uses a simple and robust architecture:
 
-Pythong Backend: A lightweight Flask server handles the direct connection to your EEG device using the BrainFlow library. It performs all the signal processing, calculates the metrics, and hosts a WebSocket for real-time communication.
-https://www.python.org/downloads/
+Python Backend: A lightweight Flask server handles the direct connection to your EEG device using the BrainFlow library. It performs all the signal processing, calculates the metrics, and hosts a WebSocket for real-time communication.
+
 HTML/JavaScript Frontend: A single, self-contained HTML file provides the user interface. It connects to the Python server's WebSocket to send commands (like "start calibration") and receive a live stream of data to display on the graphs.
 
 Getting Started
@@ -69,3 +67,5 @@ This application would not be possible without the incredible, open-source Brain
 
 License
 This project is licensed under the MIT License.
+
+Wrote this with Gemini 2.5 PRO (Ican'tCode.JPG)
