@@ -73,9 +73,9 @@ You're ready to go! The application will now press your configured keys when you
 
 
 ## Acknowledgements
-This project was heavily inspired by the architecture and methodologies of the BrainFlowsIntoVRChat project by ChilloutCharles. Many thanks to them for pioneering a robust and flexible approach to BCI with BrainFlow.
+This project was heavily inspired by the architecture and methodologies of the [BrainFlowsIntoVRChat] (https://github.com/ChilloutCharles/BrainFlowsIntoVRChat) project by ChilloutCharles. Many thanks to them for pioneering a robust and flexible approach to BCI with BrainFlow.
 
-This application would not be possible without the incredible, open-source BrainFlow library, which provides a unified and stable API for a vast range of biosensor devices.
+This application would not be possible without the incredible, open-source [BrainFlow library], (https://brainflow.org/) which provides a unified and stable API for a vast range of biosensor devices.
 
 License
 This project is licensed under the MIT License.
