@@ -27,8 +27,8 @@ Tunable Smoothing & Sensitivity: Use simple sliders to control the signal smooth
 How It Works
 This project uses a simple and robust architecture:
 
-https://www.python.org/downloads/ Backend: A lightweight Flask server handles the direct connection to your EEG device using the BrainFlow library. It performs all the signal processing, calculates the metrics, and hosts a WebSocket for real-time communication.
-
+Pythong Backend: A lightweight Flask server handles the direct connection to your EEG device using the BrainFlow library. It performs all the signal processing, calculates the metrics, and hosts a WebSocket for real-time communication.
+https://www.python.org/downloads/
 HTML/JavaScript Frontend: A single, self-contained HTML file provides the user interface. It connects to the Python server's WebSocket to send commands (like "start calibration") and receive a live stream of data to display on the graphs.
 
 Getting Started
