@@ -43,10 +43,10 @@ A BrainFlow-compatible EEG device.
 ## Installation & Usage
 Download the Project: Download all the files from this repository (muse_server_backend.py, install.bat, run.bat, requirements.txt) and place them in a new folder on your computer.
 
-# Install Dependencies
+### Install Dependencies
 Double-click the install.bat script. This will open a terminal, download, and install all the necessary Python libraries from the requirements.txt file. You only need to do this once.
 
-# Run the Application
+### Run the Application
 Double-click the run.bat script. This will start the Python server, and your default web browser should automatically open to the control interface.
 
 Connect and Calibrate:
