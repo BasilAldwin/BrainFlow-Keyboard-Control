@@ -1,16 +1,16 @@
-## Core Features
+# Core Features
 Web-Based GUI: Control everything from a clean, modern interface in your web browser. No complex command-line arguments needed.
 
-## Broad Device Support:
+Broad Device Support:
 Powered by BrainFlow, this application is compatible with dozens of EEG headsets, including Muse, GANN Biomedical, Cyton, and more.
 
-## Selectable Metric Modes:
+Selectable Metric Modes:
 Choose between two distinct control methods:
 
-## Focus Ratio
+Focus Ratio
 Uses a Beta / Alpha wave ratio to measure active concentration.
 
-## Alpha Power
+Alpha Power
 Uses the raw power of the Alpha band to measure relaxed states.
 
 Personalized Calibration
@@ -19,13 +19,13 @@ A one-click calibration routine measures your unique baseline brain activity, en
 Real-Time Visualization
 A live graph provides immediate feedback on your selected brainwave metric, helping you understand and master the controls.
 
-## Advanced Key Bindings
+Advanced Key Bindings
 Assign any single key (w, space) or complex combination (ctrl+alt+delete) to Left/Right hemisphere activation.
 
-## Tunable Smoothing & Sensitivity
+Tunable Smoothing & Sensitivity
 Use simple sliders to control the signal smoothing (EMA) and activation thresholds to fine-tune the responsiveness to your liking.
 
-## How It Works
+# How It Works
 This project uses a simple and robust architecture:
 
 ## Python Backend
